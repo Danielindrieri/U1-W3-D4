@@ -11,6 +11,7 @@ html {
     text-align: center;
     line-height: 30px;
     border: 1px solid black;
+    
   }
 body {
   margin: 0;
@@ -56,6 +57,10 @@ main {
   border: 1px solid transparent;
   border-radius: 8px;
   cursor: pointer;
+ 
+}
+header {
+    background-image: url(/natale.jfif);
 }
 
 

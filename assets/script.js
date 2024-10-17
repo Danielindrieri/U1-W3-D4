@@ -14,7 +14,7 @@ const Createcell = function () {
 const buttafuori = document.getElementById('NumeroEstratto');
 buttafuori.addEventListener('click', function () {
   if (tabella.length > 0) {
-    const randomIndex = Math.floor(Math.random() * tabella.length);
+    const randomIndex = Math.floor(Math.random() * 77);
     const buttaF = tabella.splice(randomIndex, 1)[0];
     document.getElementById('NumeroEstratto')
   } else {
